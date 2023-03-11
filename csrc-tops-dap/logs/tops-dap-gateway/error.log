@@ -1,0 +1,3 @@
+11:02:21.769 [reactor-http-nio-1] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/tops-dap-system/v2/api-docs,异常信息:connection timed out: /192.168.1.13:8088
+12:06:18.046 [nacos-grpc-client-executor-3856] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - [1678370168786_127.0.0.1_61371]Request stream onCompleted, switch server
+12:06:18.045 [nacos-grpc-client-executor-6494] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - [1678370172509_127.0.0.1_61379]Request stream onCompleted, switch server

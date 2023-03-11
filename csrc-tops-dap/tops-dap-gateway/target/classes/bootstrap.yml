@@ -1,0 +1,82 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: tops-dap-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    #      config:
+    #        server-addr: 127.0.0.1:8848
+    #        file-extension: yml
+    #        shared-configs:
+    #          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedHeaders: "*"
+            allowedOriginPatterns: "*"
+            allowCredentials: true
+            allowedMethods: "*"
+      routes:
+        - id: tops-dap-system
+          uri: lb://tops-dap-system
+          predicates:
+            - Path=/system/**
+          filters:
+            - StripPrefix=1
+        - id: tops-dap-stockPledge
+          uri: lb://tops-dap-stockPledge
+          predicates:
+            - Path=/stockPledge/**
+          filters:
+            - StripPrefix=1
+        - id: tops-dap-bond
+          uri: lb://tops-dap-bond
+          predicates:
+            - Path=/bond/**
+          filters:
+            - StripPrefix=1
+        - id: tops-dap-archivesRetrieval
+          uri: lb://tops-dap-archivesRetrieval
+          predicates:
+            - Path=/archivesRetrieval/**
+          filters:
+            - StripPrefix=1
+        - id: tops-dap-future
+          uri: lb://tops-dap-future
+          predicates:
+            - Path=/future/**
+          filters:
+            - StripPrefix=1
+        - id: tops-dap-liftBanReduce
+          uri: lb://tops-dap-liftBanReduce
+          predicates:
+            - Path=/liftBanReduce/**
+          filters:
+            - StripPrefix=1
+
+#    sentinel:
+#      # 是否取消控制台懒加载
+#      eager: true
+#      transport:
+#        # 控制台地址
+#        dashboard: 127.0.0.1:8718
+#      # nacos配置持久化
+#      datasource:
+#        ds1:
+#          nacos:
+#            server-addr: 127.0.0.1:8848
+#            dataId: sentinel-ruoyi-gateway
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: gw-flow

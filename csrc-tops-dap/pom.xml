@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.csrc.gov</groupId>
+    <artifactId>csrc-tops-dap</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <description>TOPS终端--数据应用门户</description>
+
+    <modules>
+        <module>tops-dap-api</module>
+        <module>tops-dap-gateway</module>
+        <module>tops-dap-comp</module>
+        <module>tops-dap-system</module>
+        <module>tops-dap-business</module>
+        <module>tops-dap-db</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!--注意三大版本之间的适配，具体参考https://github.com/alibaba/spring-cloud-alibaba/wiki-->
+        <!--nacos服务端的版本可能会出现适配的问题，V2.0是个分界线，添加了grpc远程调用机制-->
+        <spring-boot.version>2.7.7</spring-boot.version>
+        <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
+        <spring-boot-admin.version>2.7.10</spring-boot-admin.version>
+        <tobato.version>1.27.2</tobato.version>
+        <pagehelper.boot.version>1.4.6</pagehelper.boot.version>
+        <druid.version>1.2.16</druid.version>
+        <dynamic-ds.version>3.5.2</dynamic-ds.version>
+        <commons.io.version>2.11.0</commons.io.version>
+        <velocity.version>2.3</velocity.version>
+        <fastjson.version>2.0.23</fastjson.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <minio.version>8.2.2</minio.version>
+        <poi.version>4.1.2</poi.version>
+        <knife4j.version>4.0.0</knife4j.version>
+        <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+        <tops-dap.version>1.0-SNAPSHOT</tops-dap.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--注意三者版本的适配-->
+            <!-- 参考https://github.com/alibaba/spring-cloud-alibaba/wiki-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!--springCloud Gateway 网关聚合 -->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-gateway-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+
+            <!-- FastDFS 分布式文件系统 -->
+            <dependency>
+                <groupId>com.github.tobato</groupId>
+                <artifactId>fastdfs-client</artifactId>
+                <version>${tobato.version}</version>
+            </dependency>
+
+            <!--引入Knife4j的官方starter包,该指南选择Spring Boot版本<3.0,开发者需要注意-->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+
+
+            <!-- pagehelper 分页插件 -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.boot.version}</version>
+            </dependency>
+
+            <!-- io常用工具类 -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
+            </dependency>
+
+            <!-- excel工具 -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+
+            <!-- JSON 解析器和生成器 -->
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- JWT -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <!-- 线程传递值 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>${transmittable-thread-local.version}</version>
+            </dependency>
+
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>cn.csrc.gov</groupId>
+                <artifactId>tops-dap-core</artifactId>
+                <version>${tops-dap.version}</version>
+            </dependency>
+
+            <!-- 接口模块 -->
+            <dependency>
+                <groupId>cn.csrc.gov</groupId>
+                <artifactId>tops-dap-swagger</artifactId>
+                <version>${tops-dap.version}</version>
+            </dependency>
+
+            <!-- 安全模块 -->
+            <!--            <dependency>-->
+            <!--                <groupId>com.ruoyi</groupId>-->
+            <!--                <artifactId>ruoyi-common-security</artifactId>-->
+            <!--                <version>${ruoyi.version}</version>-->
+            <!--            </dependency>-->
+
+            <!-- 权限范围 -->
+            <!--            <dependency>-->
+            <!--                <groupId>com.ruoyi</groupId>-->
+            <!--                <artifactId>ruoyi-common-datascope</artifactId>-->
+            <!--                <version>${ruoyi.version}</version>-->
+            <!--            </dependency>-->
+
+
+            <!-- 分布式事务 -->
+            <!--            <dependency>-->
+            <!--                <groupId>com.ruoyi</groupId>-->
+            <!--                <artifactId>ruoyi-common-seata</artifactId>-->
+            <!--                <version>${ruoyi.version}</version>-->
+            <!--            </dependency>-->
+
+            <!-- 日志记录 -->
+            <!--            <dependency>-->
+            <!--                <groupId>com.ruoyi</groupId>-->
+            <!--                <artifactId>ruoyi-common-log</artifactId>-->
+            <!--                <version>${ruoyi.version}</version>-->
+            <!--            </dependency>-->
+
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>cn.csrc.gov</groupId>
+                <artifactId>tops-dap-redis</artifactId>
+                <version>${tops-dap.version}</version>
+            </dependency>
+
+            <!-- 个人中心 -->
+            <dependency>
+                <groupId>cn.csrc.gov</groupId>
+                <artifactId>tops-dap-system</artifactId>
+                <version>${tops-dap.version}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+
+    <dependencies>
+        <!-- bootstrap 启动器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+
+</project>

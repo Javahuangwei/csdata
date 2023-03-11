@@ -1,0 +1,76 @@
+17:25:36.500 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:25:38.627 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+17:25:43.127 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:25:43.130 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:25:43.131 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+17:25:43.652 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:25:43.959 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:26:49.873 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:26:50.922 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+17:26:52.365 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:26:52.365 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:26:52.366 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+17:26:52.592 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:26:53.310 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:27:32.053 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:27:32.789 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+17:27:34.103 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:27:34.104 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:27:34.104 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+17:27:34.235 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:27:35.012 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:27:35.029 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-8080"]
+17:27:35.029 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:27:35.032 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-8080"]
+17:27:35.033 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-8080"]
+17:28:23.812 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:28:24.638 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+17:28:26.141 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:28:26.142 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:28:26.142 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+17:28:26.286 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:28:27.080 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:28:27.132 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 3.949 seconds (JVM running for 4.931)
+17:29:17.526 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:03:18.796 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:03:19.692 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,631] - No active profile set, falling back to 1 default profile: "default"
+19:03:20.929 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:03:20.930 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:03:20.931 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+19:03:21.195 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:03:22.099 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:03:22.168 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 4.346 seconds (JVM running for 5.489)
+19:03:52.994 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:03:53.575 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+19:03:54.543 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:03:54.543 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:03:54.544 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+19:03:54.669 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:03:55.286 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:03:55.326 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 3.096 seconds (JVM running for 4.374)
+19:05:24.937 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:05:25.447 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+19:05:26.456 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:05:26.457 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:05:26.457 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+19:05:26.598 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:05:27.246 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:05:27.286 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 3.066 seconds (JVM running for 4.622)
+19:05:39.140 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:07:12.745 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:07:13.401 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+19:07:14.545 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:07:14.546 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:07:14.546 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+19:07:14.683 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:07:15.351 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:07:15.435 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 3.548 seconds (JVM running for 4.689)
+19:48:55.101 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+19:48:55.671 [main] INFO  c.c.g.SystemdbApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+19:48:58.602 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:48:58.604 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:48:58.604 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.70]
+19:48:58.778 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:48:59.607 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:48:59.663 [main] INFO  c.c.g.SystemdbApplication - [logStarted,61] - Started SystemdbApplication in 5.001 seconds (JVM running for 6.119)
+19:50:17.174 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

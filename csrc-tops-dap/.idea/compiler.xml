@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tops-dap-redis" />
+        <module name="tops-dap-admin" />
+        <module name="tops-dap-systemApi" />
+        <module name="tops-dap-systemdb" />
+        <module name="tops-dap-swagger" />
+        <module name="tops-dap-stockPledge" />
+        <module name="tops-dap-xxljob" />
+        <module name="tops-dap-archivesRetrieval" />
+        <module name="tops-dap-future" />
+        <module name="tops-dap-gateway" />
+        <module name="tops-dap-system" />
+        <module name="tops-dap-core" />
+        <module name="tops-dap-liftBanReduce" />
+        <module name="tops-dap-bond" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

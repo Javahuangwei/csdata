@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tops-dap-db</artifactId>
+        <groupId>cn.csrc.gov</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tops-dap-systemdb</artifactId>
+    <description>系统管理（个人中心）服务提供方</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.csrc.gov</groupId>
+            <artifactId>tops-dap-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.csrc.gov</groupId>
+            <artifactId>tops-dap-swagger</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+
+</project>
