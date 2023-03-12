@@ -1,6 +1,6 @@
 package cn.csrc.gov;
 
-import cn.csrc.gov.swagger.annotation.EnableTopsKnife4jSwagger;
+import cn.csrc.gov.swagger.annotation.EnableTopsSwagger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author HJL
  * @Desc 股票质押模块
  */
-@EnableTopsKnife4jSwagger
+@EnableTopsSwagger
 @SpringBootApplication
 public class StockPledgeApplication {
     public static void main(String[] args) {

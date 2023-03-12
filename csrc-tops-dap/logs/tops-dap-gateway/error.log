@@ -1,3 +1,821 @@
-11:02:21.769 [reactor-http-nio-1] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/tops-dap-system/v2/api-docs,异常信息:connection timed out: /192.168.1.13:8088
-12:06:18.046 [nacos-grpc-client-executor-3856] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - [1678370168786_127.0.0.1_61371]Request stream onCompleted, switch server
-12:06:18.045 [nacos-grpc-client-executor-6494] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - [1678370172509_127.0.0.1_61379]Request stream onCompleted, switch server
+15:34:48.901 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:43.991 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:44.098 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:44.666 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:44.811 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:44.984 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:40:55.569 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/swagger-ui/index.html,异常信息:404 NOT_FOUND
+15:41:04.879 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/swagger-ui/index.html,异常信息:404 NOT_FOUND
+15:47:09.183 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+15:57:23.440 [reactor-http-nio-12] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:00:49.902 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:13:25.013 [reactor-http-nio-4] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:13:27.932 [reactor-http-nio-4] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:17:25.106 [reactor-http-nio-4] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/swagger-ui/index.html,异常信息:404 NOT_FOUND
+17:17:32.130 [reactor-http-nio-4] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:19:11.551 [reactor-http-nio-7] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/swagger-ui.html,异常信息:404 NOT_FOUND
+17:19:11.599 [reactor-http-nio-7] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+17:24:11.223 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:24:12.010 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:24:12.163 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:24:12.286 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+17:24:21.657 [boundedElastic-4] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/stockPledge/v2/api-docs,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for tops-dap-stockPledge"
+18:01:54.247 [reactor-http-nio-9] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/doc.html,异常信息:404 NOT_FOUND
+18:03:52.229 [boundedElastic-7] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/stockPledge/v2/api-docs,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for tops-dap-stockPledge"
+18:12:55.504 [boundedElastic-14] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,42] - [网关异常处理]请求路径:/stockPledge/v2/api-docs,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for tops-dap-stockPledge"
+19:49:42.454 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'sentinelGatewayFilter', defined in class path resource [com/alibaba/cloud/sentinel/gateway/scg/SentinelSCGAutoConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [cn/csrc/gov/gateway/config/GatewayConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+19:50:43.855 [boundedElastic-9] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:50:43.856 [boundedElastic-10] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:50:44.051 [Nacos-Watch-Task-Scheduler-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - [handleError,95] - Unexpected error occurred in scheduled task
+reactor.core.Exceptions$ReactiveException: java.lang.InterruptedException
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91)
+	at reactor.core.publisher.Flux.blockLast(Flux.java:2645)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$0(WeightCalculatorWebFilter.java:133)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2046)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:133)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:73)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.resetIfNeeded(RouteRefreshListener.java:68)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:62)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:197)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:87)
+	... 26 common frames omitted
+19:50:46.858 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+19:54:05.710 [boundedElastic-9] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:54:06.267 [nacos-grpc-client-executor-34] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - [1678622045542_127.0.0.1_61164]Request stream error, switch server,error={}
+com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: CANCELLED: Failed to read message.
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:533)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:442)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusStatsModule$StatsClientInterceptor$1$1.onClose(CensusStatsModule.java:700)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusTracingModule$TracingClientInterceptor$1$1.onClose(CensusTracingModule.java:399)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:510)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:66)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:630)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:518)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1MessagesAvailable.runInternal(ClientCallImpl.java:611)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1MessagesAvailable.runInContext(ClientCallImpl.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$CallToStreamObserverAdapter.onNext(ClientCalls.java:341)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.sendResponse(GrpcConnection.java:120)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.sendResponse(GrpcClient.java:241)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.access$100(GrpcClient.java:57)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient$1.onNext(GrpcClient.java:177)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient$1.onNext(GrpcClient.java:161)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onMessage(ClientCalls.java:429)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onMessage(ForwardingClientCallListener.java:33)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onMessage(ForwardingClientCallListener.java:33)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1MessagesAvailable.runInternal(ClientCallImpl.java:599)
+	... 6 common frames omitted
+19:54:06.274 [com.alibaba.nacos.client.remote.worker] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: Connection closing while performing protocol negotiation for [NettyClientHandler#0, WriteBufferingAndExceptionHandler#0, DefaultChannelPipeline$TailContext#0]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:522)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:370)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: Connection closing while performing protocol negotiation for [NettyClientHandler#0, WriteBufferingAndExceptionHandler#0, DefaultChannelPipeline$TailContext#0]
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:533)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:490)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusStatsModule$StatsClientInterceptor$1$1.onClose(CensusStatsModule.java:700)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusTracingModule$TracingClientInterceptor$1$1.onClose(CensusTracingModule.java:399)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:510)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:66)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:630)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:518)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:692)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:681)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	... 3 common frames omitted
+19:54:06.404 [com.alibaba.nacos.client.remote.worker] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: Connection closing while performing protocol negotiation for [NettyClientHandler#0, WriteBufferingAndExceptionHandler#0, DefaultChannelPipeline$TailContext#0]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:522)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:370)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: Connection closing while performing protocol negotiation for [NettyClientHandler#0, WriteBufferingAndExceptionHandler#0, DefaultChannelPipeline$TailContext#0]
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:533)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:490)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusStatsModule$StatsClientInterceptor$1$1.onClose(CensusStatsModule.java:700)
+	at com.alibaba.nacos.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at com.alibaba.nacos.shaded.io.grpc.internal.CensusTracingModule$TracingClientInterceptor$1$1.onClose(CensusTracingModule.java:399)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:510)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:66)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:630)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:518)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:692)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:681)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	... 3 common frames omitted
+19:54:08.722 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+19:56:51.342 [boundedElastic-14] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.341 [boundedElastic-11] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.341 [boundedElastic-3] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.342 [boundedElastic-9] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.343 [boundedElastic-12] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.343 [boundedElastic-13] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.344 [boundedElastic-4] ERROR r.c.s.Schedulers - [error,315] - Scheduler worker in group main failed with an uncaught exception
+java.lang.OutOfMemoryError: null
+	at sun.misc.Unsafe.allocateMemory(Native Method)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.allocateDirectNoCleaner(PlatformDependent0.java:452)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.allocateDirectNoCleaner(PlatformDependent.java:624)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:772)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:748)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:245)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:215)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PoolArena.allocate(PoolArena.java:147)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:342)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:187)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator.buffer(AbstractByteBufAllocator.java:123)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyWritableBufferAllocator.allocate(NettyWritableBufferAllocator.java:51)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeKnownLengthUncompressed(MessageFramer.java:227)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writeUncompressed(MessageFramer.java:168)
+	at com.alibaba.nacos.shaded.io.grpc.internal.MessageFramer.writePayload(MessageFramer.java:141)
+	at com.alibaba.nacos.shaded.io.grpc.internal.AbstractStream.writeMessage(AbstractStream.java:53)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ForwardingClientStream.writeMessage(ForwardingClientStream.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessageInternal(ClientCallImpl.java:473)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.sendMessage(ClientCallImpl.java:457)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.ForwardingClientCall.sendMessage(ForwardingClientCall.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:284)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:191)
+	at com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestFutureStub.request(RequestGrpc.java:212)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:73)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:652)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:290)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:260)
+	at com.alibaba.nacos.client.naming.NacosNamingService.selectInstances(NacosNamingService.java:248)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getInstances(NacosServiceDiscovery.java:58)
+	at com.alibaba.cloud.nacos.discovery.reactive.NacosReactiveDiscoveryClient.lambda$loadInstancesFromNacos$1(NacosReactiveDiscoveryClient.java:68)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:152)
+	at reactor.core.publisher.MonoFlatMapMany.subscribeOrReturn(MonoFlatMapMany.java:49)
+	at reactor.core.publisher.FluxFromMonoOperator.subscribe(FluxFromMonoOperator.java:76)
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+19:56:51.521 [Nacos-Watch-Task-Scheduler-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - [handleError,95] - Unexpected error occurred in scheduled task
+reactor.core.Exceptions$ReactiveException: java.lang.InterruptedException
+	at reactor.core.Exceptions.propagate(Exceptions.java:396)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91)
+	at reactor.core.publisher.Flux.blockLast(Flux.java:2645)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$0(WeightCalculatorWebFilter.java:133)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2046)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:133)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:73)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.resetIfNeeded(RouteRefreshListener.java:68)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:62)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:197)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:87)
+	... 26 common frames omitted
+19:56:54.332 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+20:23:57.007 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:23:59.899 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:00.790 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:01.213 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:01.365 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:01.615 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:01.846 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:01.997 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:02.142 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:02.275 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:02.446 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:02.553 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:02.729 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.154 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.288 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.428 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.576 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.740 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:03.842 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.025 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.217 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.374 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.499 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.650 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.786 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:04.942 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.055 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.215 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.343 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.478 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.626 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.788 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:05.938 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:06.073 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:06.342 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:07.700 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:07.868 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:08.076 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:08.259 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:08.426 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:23.148 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND
+20:24:30.017 [reactor-http-nio-2] ERROR c.c.g.g.h.GatewayExceptionHandler - [handle,46] - [网关异常处理]请求路径:/favicon.ico,异常信息:404 NOT_FOUND

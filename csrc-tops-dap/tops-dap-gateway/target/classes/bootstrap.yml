@@ -29,6 +29,7 @@ spring:
             allowedMethods: "*"
       routes:
         - id: tops-dap-system
+          #spring cloud gateway中配置uri 支持三种方式：websocket、http、注册中心的方式，这里使用第三种方式
           uri: lb://tops-dap-system
           predicates:
             - Path=/system/**
@@ -36,6 +37,7 @@ spring:
             - StripPrefix=1
         - id: tops-dap-stockPledge
           uri: lb://tops-dap-stockPledge
+          # 断言，通过指定客户端IP地址与子网掩码可以实现对四级数据的保护（一种方式）
           predicates:
             - Path=/stockPledge/**
           filters:
@@ -64,6 +66,13 @@ spring:
             - Path=/liftBanReduce/**
           filters:
             - StripPrefix=1
+    sentinel:
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8999
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
 
 #    sentinel:
 #      # 是否取消控制台懒加载
@@ -80,3 +89,32 @@ spring:
 #            groupId: DEFAULT_GROUP
 #            data-type: json
 #            rule-type: gw-flow
+#V4.0.0 目前版本支持度比较低 暂时还不支持从nacos获取相关服务
+#knife4j:
+#  gateway:
+#    enable: true
+#    routes:
+#      - name: tops-dap-system
+#        url: /tops-dap-system/v2/api-docs?group=default
+#        service-name: tops-dap-system
+#        order: 1
+#      - name: tops-dap-stockPledge
+#        url: /tops-dap-stockPledge/v2/api-docs?group=default
+#        service-name: tops-dap-stockPledge
+#        order: 2
+#      - name: tops-dap-bond
+#        url: /tops-dap-bond/v2/api-docs?group=default
+#        service-name: tops-dap-bond
+#        order: 3
+#      - name: tops-dap-archivesRetrieval
+#        url: /tops-dap-archivesRetrieval/v2/api-docs?group=default
+#        service-name: tops-dap-archivesRetrieval
+#        order: 3
+#      - name: tops-dap-future
+#        url: /tops-dap-future/v2/api-docs?group=default
+#        service-name: tops-dap-future
+#        order: 4
+#      - name: tops-dap-liftBanReduce
+#        url: /tops-dap-liftBanReduce/v2/api-docs?group=default
+#        service-name: tops-dap-liftBanReduce
+#        order: 5

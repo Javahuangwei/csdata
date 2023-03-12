@@ -6,6 +6,10 @@ spring:
     name: tops-dap-archivesRetrieval
   profiles:
     active: dev
+#解决swagger与当前boot版本之间的适配问题，后期设置为nacos的公共配置文件
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   cloud:
     nacos:
       discovery:

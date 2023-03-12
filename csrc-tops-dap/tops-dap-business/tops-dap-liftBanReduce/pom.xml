@@ -39,12 +39,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger-ui</artifactId>-->
-<!--            <version>${swagger.fox.version}</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>cn.csrc.gov</groupId>
             <artifactId>tops-dap-swagger</artifactId>

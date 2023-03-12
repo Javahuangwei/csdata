@@ -8,23 +8,22 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 
 /**
- * 监控权限配置
- * 
- * @author ruoyi
+ * @Author HJL
+ * @Date 20230308
+ * @Email oxygen_subway@163.com
+ * 监控权限控制
  */
+
 @EnableWebSecurity
-public class WebSecurityConfigurer
-{
+public class WebSecurityConfigurer {
     private final String adminContextPath;
 
-    public WebSecurityConfigurer(AdminServerProperties adminServerProperties)
-    {
+    public WebSecurityConfigurer(AdminServerProperties adminServerProperties) {
         this.adminContextPath = adminServerProperties.getContextPath();
     }
 
     @Bean
-    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception
-    {
+    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
         SavedRequestAwareAuthenticationSuccessHandler successHandler = new SavedRequestAwareAuthenticationSuccessHandler();
         successHandler.setTargetUrlParameter("redirectTo");
         successHandler.setDefaultTargetUrl(adminContextPath + "/");

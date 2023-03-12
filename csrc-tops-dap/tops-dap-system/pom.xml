@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>tops-dap-system</artifactId>
-    <description>系统管理（个人中心）</description>
+    <description>个人中心</description>
 
     <dependencies>
 
@@ -34,16 +34,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.csrc.gov</groupId>
-            <artifactId>tops-dap-swagger</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>cn.csrc.gov</groupId>
             <artifactId>tops-dap-core</artifactId>
         </dependency>
@@ -63,6 +53,10 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.csrc.gov</groupId>
+            <artifactId>tops-dap-swagger</artifactId>
         </dependency>
 
     </dependencies>

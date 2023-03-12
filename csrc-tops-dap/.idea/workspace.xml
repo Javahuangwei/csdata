@@ -4,7 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df039b7-e759-4b0e-bcbd-61085ed7eff0" name="Default Changelist" comment="" />
+    <list default="true" id="1df039b7-e759-4b0e-bcbd-61085ed7eff0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-admin/error.2023-03-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-admin/info.2023-03-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-bond/error.2023-03-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-bond/info.2023-03-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-future/info.2023-03-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-gateway/error.2023-03-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-gateway/info.2023-03-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-system/error.2023-03-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-system/error.2023-03-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/tops-dap-system/info.2023-03-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tops-dap-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tops-dap-auth/src/main/java/cn/csrc/gov/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-admin/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-admin/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-admin/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-admin/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-bond/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-bond/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-bond/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-bond/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-future/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-future/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-system/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-system/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/tops-dap-system/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tops-dap-system/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/java/cn/csrc/gov/ArchivesRetrievalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/java/cn/csrc/gov/ArchivesRetrievalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/java/cn/csrc/gov/BondApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/java/cn/csrc/gov/BondApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/java/cn/csrc/gov/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/java/cn/csrc/gov/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/cn/csrc/gov/BondApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/cn/csrc/gov/BondApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/cn/csrc/gov/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-bond/target/classes/cn/csrc/gov/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/src/main/java/cn/csrc/gov/FutureApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/src/main/java/cn/csrc/gov/FutureApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/target/classes/cn/csrc/gov/FutureApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-future/target/classes/cn/csrc/gov/FutureApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/src/main/java/cn/csrc/gov/LiftBanReduceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/src/main/java/cn/csrc/gov/LiftBanReduceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/src/main/java/cn/csrc/gov/StockPledgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/src/main/java/cn/csrc/gov/StockPledgeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/src/main/java/cn/csrc/gov/admin/config/WebSecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/src/main/java/cn/csrc/gov/admin/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/target/classes/cn/csrc/gov/admin/config/WebSecurityConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/target/classes/cn/csrc/gov/admin/config/WebSecurityConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-admin/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/annotation/EnableTopsKnife4jSwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/annotation/EnableTopsSwagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/Knife4jSwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/java/cn/csrc/gov/swagger/config/SwaggerWebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/resources/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/annotation/EnableTopsKnife4jSwagger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/Knife4jSwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/cn/csrc/gov/swagger/config/SwaggerWebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/target/classes/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/config/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/config/SwaggerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/config/SwaggerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/handler/GatewayExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/handler/GatewayExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/handler/SwaggerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/java/cn/csrc/gov/gateway/handler/SwaggerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/config/GatewayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/config/GatewayConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/handler/GatewayExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-gateway/target/classes/cn/csrc/gov/gateway/handler/GatewayExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/java/cn/csrc/gov/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/SystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tops-dap-system/target/classes/cn/csrc/gov/service/impl/UserServiceImpl.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +109,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -33,18 +123,22 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/Downloads/developTools/apache-maven-3.8.1/repository" />
-        <option name="mavenHome" value="$USER_HOME$/Downloads/developTools/apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/Downloads/developTools/apache-maven-3.8.1/conf/settings.xml" />
+        <option name="localRepository" value="D:\apache-maven-3.8.3\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2MgOWtPetH6xxFJdNGlOVKeTdoe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -54,20 +148,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tops-dap-api/tops-dap-systemApi/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tops-dap-comp/tops-dap-swagger/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.15304947" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\csdata\csrc-tops-dap\tops-dap-comp\tops-dap-swagger\src\main\resources" />
+      <recent name="C:\Users\Admin\Desktop\csdata\csrc-tops-dap\tops-dap-comp\tops-dap-swagger\src\main\java\cn\csrc\gov\swagger\config" />
       <recent name="$PROJECT_DIR$/tops-dap-api/tops-dap-systemApi/src/main/resources" />
       <recent name="$PROJECT_DIR$/tops-dap-db/tops-dap-systemdb/src/main/resources" />
       <recent name="$PROJECT_DIR$/tops-dap-system/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tops-dap-business/tops-dap-stockPledge/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tops-dap-business/tops-dap-liftBanReduce/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tops-dap-api/tops-dap-systemApi/src/main/resources/META_INF" />
@@ -83,42 +177,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FutureApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tops-dap-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.csrc.gov.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.csrc.gov.admin.AdminApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tops-dap-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.csrc.gov.admin.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.csrc.gov.admin.config.AdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,12 +257,13 @@
       <list>
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.SystemdbApplication" />
-        <item itemvalue="Spring Boot.AdminApplication (1)" />
-        <item itemvalue="Spring Boot.AdminApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -213,10 +276,37 @@
       <updated>1678185795413</updated>
       <workItem from="1678185796663" duration="43698000" />
       <workItem from="1678364264257" duration="14640000" />
+      <workItem from="1678534062511" duration="3508000" />
+      <workItem from="1678537613613" duration="1780000" />
+      <workItem from="1678539424254" duration="20212000" />
+      <workItem from="1678616517567" duration="454000" />
+      <workItem from="1678617179819" duration="4381000" />
+      <workItem from="1678621867017" duration="146000" />
+      <workItem from="1678622063609" duration="77000" />
+      <workItem from="1678623241010" duration="3247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

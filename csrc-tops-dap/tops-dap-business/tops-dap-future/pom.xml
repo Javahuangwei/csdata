@@ -31,12 +31,6 @@
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger-ui</artifactId>-->
-<!--            <version>${swagger.fox.version}</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>cn.csrc.gov</groupId>
             <artifactId>tops-dap-redis</artifactId>
@@ -50,6 +44,10 @@
         <dependency>
             <groupId>cn.csrc.gov</groupId>
             <artifactId>tops-dap-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

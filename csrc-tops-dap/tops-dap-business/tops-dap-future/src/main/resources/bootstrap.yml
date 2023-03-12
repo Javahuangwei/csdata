@@ -15,6 +15,9 @@ spring:
         file-extension: yml
         shared-configs:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 #    sentinel:
 #      # 是否取消控制台懒加载
 #      eager: true

@@ -12,7 +12,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 解决swagger在当前springboot版本不兼容问题的处理
+ * swagger 在 springboot 2.6.x 不兼容问题的处理
+ *
+ * @author ruoyi
  */
 @Component
 public class SwaggerBeanPostProcessor implements BeanPostProcessor {

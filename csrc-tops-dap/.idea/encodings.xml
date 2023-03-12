@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/tops-dap-api/tops-dap-systemApi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tops-dap-api/tops-dap-systemApi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tops-dap-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tops-dap-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tops-dap-business/tops-dap-archivesRetrieval/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tops-dap-business/tops-dap-bond/src/main/java" charset="UTF-8" />

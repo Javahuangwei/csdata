@@ -13,7 +13,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spi.service.contexts.SecurityContext;
 import springfox.documentation.spring.web.plugins.ApiSelectorBuilder;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,9 +21,10 @@ import java.util.List;
 import java.util.function.Predicate;
 
 @Configuration
-@EnableSwagger2WebMvc
+@EnableSwagger2
 @EnableAutoConfiguration
 @ConditionalOnProperty(name = "swagger.enabled", matchIfMissing = true)
+//@EnableSwaggerBootstrapUI
 public class SwaggerAutoConfiguration {
     /**
      * 默认的排除路径，排除Spring Boot默认的错误处理路径和端点
@@ -68,7 +69,6 @@ public class SwaggerAutoConfiguration {
 
     /**
      * 安全模式，这里指定token通过Authorization头请求头传递
-     * 结合具体情况修改
      */
     private List<SecurityScheme> securitySchemes() {
         List<SecurityScheme> apiKeyList = new ArrayList<SecurityScheme>();
@@ -84,7 +84,7 @@ public class SwaggerAutoConfiguration {
         securityContexts.add(
                 SecurityContext.builder()
                         .securityReferences(defaultAuth())
-                        .forPaths(PathSelectors.regex("^(?!auth).*$")) //注意该配置
+                        .operationSelector(o -> o.requestMappingPattern().matches("/.*"))
                         .build());
         return securityContexts;
     }

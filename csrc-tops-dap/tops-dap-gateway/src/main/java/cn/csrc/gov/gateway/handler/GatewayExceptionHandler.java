@@ -13,8 +13,12 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
 /**
+ * @Author HJL
+ * @Date 20230308
+ * @Email oxygen_subway@163.com
  * 网关统一异常处理
  */
+
 @Order(-1)
 @Configuration
 public class GatewayExceptionHandler implements ErrorWebExceptionHandler {

@@ -1,6 +1,6 @@
 package cn.csrc.gov;
 
-import cn.csrc.gov.swagger.annotation.EnableTopsKnife4jSwagger;
+import cn.csrc.gov.swagger.annotation.EnableTopsSwagger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * 业务模块-档案查询
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@EnableTopsKnife4jSwagger
+@EnableTopsSwagger
 public class ArchivesRetrievalApplication {
     public static void main(String[] args) {
         SpringApplication.run(ArchivesRetrievalApplication.class, args);
